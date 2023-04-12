@@ -51,6 +51,16 @@ Make sure to replace the placeholders with your actual values.
 
 3. The tool will generate and output the Swagger documentation based on the provided details.
 
+### Example Input
+
+1. Description: `Retrieve a list of users`
+2. Request payload (JSON, one-line format): `{"page": 1, "pageSize": 10}`
+3. Response payload (JSON, one-line format): `{"data": [{"id": 1, "name": "John Doe", "email": "john.doe@example.com"}, {"id": 2, "name": "Jane Doe", "email": "jane.doe@example.com"}], "total": 100, "page": 1, "pageSize": 10}`
+4. Desired output format (JSON or YAML): `JSON`
+
+Use this test input to run the command line application and generate Swagger documentation with descriptions for each field in the request and response payloads.
+
+
 ## How to Contribute
 
 1. Fork the repository on GitHub.
