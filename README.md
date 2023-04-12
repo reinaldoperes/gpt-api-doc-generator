@@ -41,13 +41,19 @@ OPENAI_API_KEY=your_openai_api_key
 
 1. In the terminal, navigate to the project directory.
 
-2. Run the command with the required arguments: description, framework, request payload, and response payload. Make sure to replace the placeholders with your actual values:
+2. Run the command:
 
 ```
-node index.js "API description" "API framework" "Request payload" "Response payload"
+node index.js
 ```
 
-Make sure to replace the placeholders with your actual values.
+The application will prompt you for the following information:
+- Enter the description of the API endpoint.
+- Enter the request payload (JSON) in a one-line format.
+- Enter the response payload (JSON) in a one-line format.
+- Enter the desired output format (JSON or YAML).
+
+After providing the required information, the application will generate Swagger documentation for the given API endpoint and display it in the console.
 
 3. The tool will generate and output the Swagger documentation based on the provided details.
 
